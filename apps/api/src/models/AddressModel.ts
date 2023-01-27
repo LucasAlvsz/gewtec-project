@@ -1,4 +1,11 @@
-import { Column, Entity, PrimaryGeneratedColumn } from "typeorm"
+import {
+	Column,
+	Entity,
+	PrimaryGeneratedColumn,
+	ManyToOne,
+	JoinColumn,
+} from "typeorm"
+import User from "./UserModel"
 
 @Entity()
 export default class Address {
@@ -24,4 +31,8 @@ export default class Address {
 		type: "varchar",
 	})
 	state: string
+
+	@ManyToOne(() => User, user => user.addresses)
+	@JoinColumn({ name: "user_id" })
+	user: User
 }

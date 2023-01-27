@@ -1,3 +1,4 @@
 import userRepository from "./userRepository"
+import addressRepository from "./addressRepository"
 
-export { userRepository }
+export { userRepository, addressRepository }

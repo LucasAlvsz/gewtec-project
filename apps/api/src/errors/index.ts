@@ -20,4 +20,10 @@ class ConflictError extends AppError {
 	}
 }
 
-export { AppError, UnprocessableEntityError, ConflictError }
+class NotFoundError extends AppError {
+    constructor(message: string) {
+		super(404, message)
+    }
+}
+
+export { AppError, UnprocessableEntityError, ConflictError, NotFoundError}

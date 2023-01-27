@@ -1,4 +1,5 @@
-import { Column, Entity, PrimaryGeneratedColumn } from "typeorm"
+import { Entity, Column, PrimaryGeneratedColumn, OneToMany } from "typeorm"
+import Address from "./AddressModel"
 
 @Entity()
 export default class User {
@@ -20,4 +21,7 @@ export default class User {
 
 	@Column({ type: "varchar", nullable: false })
 	birthDate: string
+
+	@OneToMany(type => Address, address => address.user)
+	addresses: Address[]
 }
