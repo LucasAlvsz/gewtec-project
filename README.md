@@ -1,7 +1,7 @@
 <h1 align="center">
   GEW Tecnologia Project
   </br>
-  <a href="https://gewtec-project.vercel.app/" target="_blank">
+  <a href="https://gewtec-project-client.vercel.app/" target="_blank">
       ><img src="https://img.shields.io/badge/Version-1.0.0-blue.svg" alt="Version"><
     </a>
 </h1>
