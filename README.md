@@ -32,7 +32,7 @@ For a recent job application at GEW Technology, I developed a registration scree
 
 The design of the screen was clean and minimalistic, allowing for easy navigation and understanding for users of all technical abilities. The screen was divided into two main sections: personal information and account details.
 
-In the personal information section, users were able to input their name, email, and phone number. In the account details section, users were able to create a unique username and password for their account.
+In the personal information section, users were able to input their name, birth date and address. In the account details section, users were able to create a unique email and password for their account.
 
 The project also included validation for all fields, ensuring that all information inputted by the user was accurate and properly formatted. Additionally, a "submit" button was included at the bottom of the screen, allowing users to easily submit their registration information.
 
@@ -58,7 +58,7 @@ POST /sign-up
 
 | Body        | Type     | Description              |
 | :---------- | :------- | :----------------------- |
-| `nabme`     | `string` | **Required**             |
+| `name`     | `string` | **Required**             |
 | `email`     | `string` | **Required**             |
 | `password`  | `string` | **Required**.            |
 | `birthDate` | `Date`   | **Required**             |
