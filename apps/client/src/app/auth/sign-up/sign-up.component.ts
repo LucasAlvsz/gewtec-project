@@ -63,7 +63,7 @@ export class SignUpComponent {
 	submit(e: Event) {
 		e.preventDefault();
 		this.loading = true;
-		const url = `${process.env.API_URL}/sign-up`;
+		const url = `${process.env.['API_URL']}/sign-up`;
 		const data = this.form.value;
 		this.http
 			.post(url, data, { responseType: "text" })
