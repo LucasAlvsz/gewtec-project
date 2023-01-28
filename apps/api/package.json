@@ -9,8 +9,7 @@
 		"dev": "tsx watch src/server.ts",
 		"build": "tsup src --outDir build",
 		"prestart": "",
-		"start": "ts-node src/index.ts",
-		"typeorm": "typeorm-ts-node-commonjs"
+		"start": "node build/server.cjs"
 	},
 	"dependencies": {
 		"@joi/date": "^2.1.0",
