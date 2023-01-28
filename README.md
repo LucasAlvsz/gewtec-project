@@ -1,6 +1,9 @@
 <h1 align="center">
   GEW Tecnologia Project
   </br>
+  <a href="https://gewtec-project.vercel.app/" target="_blank">
+      ><img src="https://img.shields.io/badge/Version-1.0.0-blue.svg" alt="Version"><
+    </a>
 </h1>
 <div align="center">
 
@@ -14,6 +17,9 @@
   <img alt= "material ui logo" src="https://img.shields.io/badge/Material--UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white" height="30px"/>
   
   <img alt= "mysql logo" src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" height="30px"/>
+
+   <img alt= "heroku logo" src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" height="30px"/>
+  <img alt= "vercel logo" src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" height="30px"/>
 
   <!-- Badges source: https://dev.to/envoy_/150-badges-for-github-pnk -->
 </div>
